@@ -1,0 +1,12 @@
+.covid {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    color: rgba(247, 247, 247, 0.5);
+    font-size: 30px;
+}
+
+.covid__covid {
+    background: rgba(201, 201, 86,0.5);
+    width: 25vw;
+}

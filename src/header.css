@@ -1,0 +1,38 @@
+.header {
+    background-color: transparent;
+    width: 100vw;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    color: rgba(247, 247, 247, 0.5);
+    font-size: 30px
+}
+
+.header__settings__options-grid {
+    display: grid;
+    padding: 20px;
+    grid-auto-rows: auto;
+    grid-template-columns: 50% 50%;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+.header__settings__options-grid__option__image {
+    max-width: 100%;
+    height: auto;
+}
+
+.header__settings__options-grid {
+    background-color: black;
+}
+
+.title {
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+.title > .MuiTypography-h6 {
+    font-size: 50px !important;
+
+}

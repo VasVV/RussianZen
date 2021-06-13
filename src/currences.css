@@ -1,0 +1,25 @@
+.currences {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px
+}
+
+.currences__curr__num {
+    font-size: 10vw;
+    font-weight: 700;
+    color: rgba(93, 180, 88, 0.5);
+}
+
+.currences__curr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.currences__curr__static {
+    color: rgba(247, 247, 247, 0.5);
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+
